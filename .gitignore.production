@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Jen torie kvuli uceni
+dulezita_teorie
+
+# Build output
+/build/
+dist
+dist-ssr
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+/coverage/
+
+# Misc
+*.cache
+*.tmp
+
+# ===================================
+# PRODUCTION: Exclude documentation
+# ===================================
+# Documentation files (only for development/main branch)
+DOCKER-GUIDE.md
+QUICKSTART.md
+FAQ.md
+RESENI-PROBLEMU.md
+SOUBORY-PREHLED.md
+docker-commands.md
+
+# Appwrite deployment documentation
+APPWRITE-STATIC-HOSTING.md
+APPWRITE-NAVOD.md
+APPWRITE-TROUBLESHOOTING.md
+APPWRITE-README.md
+README.appwrite.md
+TODO-APPWRITE.md
+.appwrite.json
+
+# Build scripts (optional - keep if needed for CI/CD)
+build.sh
+build.bat
+build-and-check.sh
+build-and-check.bat

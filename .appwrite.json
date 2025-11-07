@@ -1,0 +1,18 @@
+{
+  "$schema": "https://appwrite.io/schemas/appwrite.json",
+  "projectId": "your-project-id",
+  "projectName": "JSM Movie App",
+  "functions": [],
+  "collections": [],
+  "buckets": [],
+  "settings": {
+    "services": {
+      "account": true,
+      "avatars": true,
+      "databases": true,
+      "locale": true,
+      "health": true,
+      "storage": true
+    }
+  }
+}
